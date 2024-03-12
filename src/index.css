@@ -10,12 +10,12 @@ body {
   width: 1270px; 
   margin-left: calc(50% - 211px);
   font-family: 'Gill Sans', 'Gill Sans Mt';
-  background-color: rgb(15, 23, 42);
+  background-color: rgb(16, 27, 56);
   color: rgb(222, 229, 239);
 }
 
 .main-header {
-  background-color: royalblue;
+  /* background-color: royalblue; */
   padding-top: 3rem;
   display: flex;
   flex-direction: row;
@@ -27,14 +27,118 @@ body {
 .img {
   background-color: antiquewhite;
   border: 1px solid #ddd;
-  border-radius: 4px;
+  /* border-radius: 4px; */
   border-radius: 8px;
   width: 4rem;
 }
 
 .header-text {
-  background-color: rgb(236, 153, 46);
+  /* background-color: rgb(236, 153, 46); */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+
+.main-about {
+  padding-top: 3rem;
+  /* background-color: rgb(236, 153, 46); */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 33%;
+}
+.main-experience {
+  padding-top: 3rem;
+  /* background-color: rgb(236, 153, 46); */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 33%;
+}
+.main-experience-list {
+  padding-top: 1rem;
+  /* background-color: rgb(236, 153, 46); */
+  display: flex;
+  flex-direction: row;
+}
+
+.experience-list-year {
+  width: 25%;
+  /* background-color: aqua; */
+}
+
+.experience-list-work {
+  width: 75%;
+  /* background-color: rgb(45, 177, 177); */
+}
+.main-projects {
+  padding-top: 3rem;
+  /* background-color: rgb(236, 153, 46); */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 33%;
+}
+.main-projects-list {
+  padding-top: 1rem;
+  /* background-color: rgb(236, 153, 46); */
+  display: flex;
+  flex-direction: row;
+}
+
+.projects-list-year {
+  width: 25%;
+  /* background-color: aqua; */
+}
+
+.projects-list-work {
+  width: 75%;
+  /* background-color: rgb(45, 177, 177); */
+}
+
+
+.main-links {
+  padding-top: 3rem;
+  /* background-color: rgb(236, 153, 46); */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 33%;
+}
+.main-links-list {
+  padding-top: 0.5rem;
+  /* background-color: rgb(236, 153, 46); */
+  display: flex;
+  flex-direction: row;
+
+}
+
+.links-list-year {
+  width: 25%;
+  /* background-color: aqua; */
+}
+
+.links-list-work {
+  width: 75%;
+  /* background-color: rgb(45, 177, 177); */
+}
+
+.programing-language-listing {
+  display: flex;
+  flex-direction: row;
+  gap: 0.2rem;
+  padding-top: 0.5rem;
+}
+
+.programing-language{
+  background-color: rgb(46, 85, 107);
+  padding: 4px;
+  border-radius: 8px;
+  color: rgb(90, 223, 203);
+  width: min-content;
+  height: 20px;
+}
+
+.main-links-list:last-child {
+  padding-bottom: 10rem;
 }
