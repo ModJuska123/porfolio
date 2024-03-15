@@ -7,11 +7,12 @@ body * {
 }
 
 body {
-  width: 1270px; 
-  margin-left: calc(50% - 211px);
+  width: 700px; 
+  margin-left: calc(60% - 330px);
   font-family: 'Gill Sans', 'Gill Sans Mt';
   background-color: rgb(16, 27, 56);
-  color: rgb(222, 229, 239);
+  color: rgb(148, 163, 184);
+  
 }
 
 .main-header {
@@ -21,13 +22,22 @@ body {
   flex-direction: row;
   align-items: center;
   gap: 0.5rem;
-  width: 33%;
+  width: 60%;
+}
+.main-header:hover {
+  /* background-color: royalblue; */
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  width: 60%;
+  color: rgb(222, 228, 236);
 }
 
 .img {
   background-color: antiquewhite;
   border: 1px solid #ddd;
-  /* border-radius: 4px; */
   border-radius: 8px;
   width: 4rem;
 }
@@ -45,21 +55,51 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 33%;
+  width: 60%;
+  line-height: 25px;
 }
+.main-about:hover {
+  padding-top: 3rem;
+  /* background-color: rgb(21, 35, 71); */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 60%;
+  line-height: 25px;
+  color: rgb(222, 228, 236);
+}
+
+
+.main-about > h5 {
+  padding-top: 1rem;
+}
+
 .main-experience {
   padding-top: 3rem;
   /* background-color: rgb(236, 153, 46); */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 33%;
+  width: 60%;
 }
+
+.main-experience-h2:hover {
+  color: rgb(222, 228, 236);
+}
+
+
 .main-experience-list {
   padding-top: 1rem;
   /* background-color: rgb(236, 153, 46); */
   display: flex;
   flex-direction: row;
+}
+.main-experience-list:hover {
+  padding-top: 1rem;
+  /* background-color: rgb(236, 153, 46); */
+  display: flex;
+  flex-direction: row;
+  color: rgb(222, 228, 236);
 }
 
 .experience-list-year {
@@ -70,20 +110,33 @@ body {
 .experience-list-work {
   width: 75%;
   /* background-color: rgb(45, 177, 177); */
+  line-height: 25px;
 }
+
 .main-projects {
   padding-top: 3rem;
   /* background-color: rgb(236, 153, 46); */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 33%;
+  width: 60%;
 }
+.main-projects-h2:hover {
+  color: rgb(222, 228, 236);
+}
+
 .main-projects-list {
   padding-top: 1rem;
   /* background-color: rgb(236, 153, 46); */
   display: flex;
   flex-direction: row;
+}
+.main-projects-list:hover {
+  padding-top: 1rem;
+  /* background-color: rgb(236, 153, 46); */
+  display: flex;
+  flex-direction: row;
+  color: rgb(222, 228, 236);
 }
 
 .projects-list-year {
@@ -94,6 +147,7 @@ body {
 .projects-list-work {
   width: 75%;
   /* background-color: rgb(45, 177, 177); */
+  line-height: 25px;
 }
 
 
@@ -103,14 +157,41 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 33%;
+  width: 60%;
 }
+.main-links:hover {
+  color: rgb(222, 228, 236);
+}
+
 .main-links-list {
-  padding-top: 0.5rem;
   /* background-color: rgb(236, 153, 46); */
   display: flex;
   flex-direction: row;
-
+}
+.main-links-general {
+padding-top: 1rem;
+/* background-color: beige;} */
+}
+.links-list-work-a:link {
+color:rgb(148, 163, 184);
+/* background-color: beige; */
+background-color: transparent;
+text-decoration: none;
+}
+.links-list-work-a:visited {
+color: rgb(222, 228, 236);
+/* background-color: beige; */
+text-decoration: none;
+}
+.links-list-work-a:hover {
+color:crimson;
+/* background-color: beige; */
+text-decoration: none;
+}
+.links-list-work-a:active {
+color:blue;
+/* background-color: beige; */
+text-decoration: none;
 }
 
 .links-list-year {
@@ -121,24 +202,51 @@ body {
 .links-list-work {
   width: 75%;
   /* background-color: rgb(45, 177, 177); */
+  line-height: 25px;
 }
 
 .programing-language-listing {
   display: flex;
   flex-direction: row;
   gap: 0.2rem;
-  padding-top: 0.5rem;
+  line-height: 1rem;
 }
 
 .programing-language{
   background-color: rgb(46, 85, 107);
-  padding: 4px;
+  padding: 5px;
   border-radius: 8px;
   color: rgb(90, 223, 203);
   width: min-content;
   height: 20px;
+  
+}
+.programing-language:hover{
+  background-color: rgb(90, 223, 203);
+  padding: 5px;
+  border-radius: 8px;
+  color: rgb(222, 228, 236);
+  width: min-content;
+  height: 20px;
 }
 
-.main-links-list:last-child {
-  padding-bottom: 10rem;
+.last-sentence {
+  padding-top: 3rem;
+  padding-bottom: 7rem;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 60%;
 }
+.last-sentence:hover {
+  padding-top: 3rem;
+  padding-bottom: 7rem;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 60%;
+  color: rgb(222, 228, 236);
+}
+
